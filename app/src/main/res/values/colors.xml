@@ -8,7 +8,7 @@
     <color name="radiobutton_text_color">#000000</color>
     <color name="gray_black">#292929</color>
 
-    <color name="light_orange">#C80202</color>
-    <color name="light_blue">#03A9F4</color>
-    <color name="c">#292929</color>
+    <color name="light_orange">#FF8B00</color>
+    <color name="yellow">#F4E167</color>
+    <color name="c">#121010</color>
 </resources>

@@ -2,17 +2,12 @@ package com.example.weather01;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
@@ -22,7 +17,6 @@ import androidx.core.view.WindowInsetsCompat;
 import java.io.Serializable;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import java.util.List;
 import java.util.Locale;
 
 public class DetailsActivity extends AppCompatActivity {
@@ -46,7 +40,7 @@ public class DetailsActivity extends AppCompatActivity {
                     rootView.setBackgroundColor(ContextCompat.getColor(this, R.color.light_orange)); // Halvány narancssárga szín
                     break;
                 case "sunset":
-                    rootView.setBackgroundColor(ContextCompat.getColor(this, R.color.light_blue)); // Halvány kék szín
+                    rootView.setBackgroundColor(ContextCompat.getColor(this, R.color.yellow)); // Halvány kék szín
                     break;
             }
         }

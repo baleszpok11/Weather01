@@ -12,7 +12,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#0AE"
+        android:background="@color/yellow"
         android:minHeight="?attr/actionBarSize"
         android:elevation="4dp"
         app:title="@string/app_name"

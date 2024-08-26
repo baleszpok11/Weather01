@@ -112,7 +112,7 @@ public class Day extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        Intent intent = new Intent(Day.this, CustomAdapter.class);
+        Intent intent = new Intent(Day.this, MainActivity.class);
         startActivity(intent);
     }
 }
